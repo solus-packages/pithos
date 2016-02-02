@@ -1,6 +1,6 @@
 name       : pithos
 version    : 1.1.2
-release    : 7
+release    : 8
 source     :
     - https://github.com/pithos/pithos/archive/1.1.2.tar.gz : 560cc42410981c4578505bf67635c75d11b63fe8ff5d4d73e154e016e7fe5465
 license    : GPL-3.0
@@ -17,7 +17,7 @@ description: |
 builddeps  :
     - pkgconfig(gtk+-3.0)
     - pkgconfig(libnotify)
-    - pkgconfig(python-3.4)
+    - pkgconfig(python-3.5)
     - python3-setuptools
 install    : |
     python3 setup.py install --root=%installroot% --no-compile -O0
