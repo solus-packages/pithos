@@ -1,6 +1,6 @@
 name       : pithos
 version    : 1.1.2
-release    : 8
+release    : 9
 source     :
     - https://github.com/pithos/pithos/archive/1.1.2.tar.gz : 560cc42410981c4578505bf67635c75d11b63fe8ff5d4d73e154e016e7fe5465
 license    : GPL-3.0
@@ -10,7 +10,6 @@ rundeps    :
     - gstreamer-1.0-plugins-good
     - gstreamer-1.0-plugins-ugly
     - python3-dbus
-    - python3-setuptools
     - python3-pylast
 description: |
     Pandora music streaming client
@@ -18,6 +17,6 @@ builddeps  :
     - pkgconfig(gtk+-3.0)
     - pkgconfig(libnotify)
     - pkgconfig(python-3.5)
-    - python3-setuptools
+    - python3-ezsetup
 install    : |
     python3 setup.py install --root=%installroot% --no-compile -O0
