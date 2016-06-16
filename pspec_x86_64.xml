@@ -1,11 +1,13 @@
 <PISI>
     <Source>
         <Name>pithos</Name>
+        <Homepage>http://pithos.github.io/</Homepage>
         <Packager>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>GPL-3.0</License>
+        <PartOf>multimedia.audio</PartOf>
         <Summary xml:lang="en">Pandora music streaming client</Summary>
         <Description xml:lang="en">Pandora music streaming client
 </Description>
@@ -16,29 +18,71 @@
         <Summary xml:lang="en">Pandora music streaming client</Summary>
         <Description xml:lang="en">Pandora music streaming client
 </Description>
-        <PartOf>desktop.multimedia</PartOf>
-        <RuntimeDependencies>
-            <Dependency>gstreamer-1.0-plugins-bad</Dependency>
-            <Dependency>gstreamer-1.0-plugins-good</Dependency>
-            <Dependency>gstreamer-1.0-plugins-ugly</Dependency>
-            <Dependency>python3-dbus</Dependency>
-            <Dependency>python3-pylast</Dependency>
-        </RuntimeDependencies>
+        <PartOf>multimedia.audio</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="library">/usr/lib/python3.5</Path>
-            <Path fileType="data">/usr/share/appdata</Path>
-            <Path fileType="data">/usr/share/icons</Path>
-            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos-1.1.2-py3.5.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos-1.1.2-py3.5.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos-1.1.2-py3.5.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos-1.1.2-py3.5.egg-info/entry_points.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos-1.1.2-py3.5.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/AboutPithosDialog.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/PreferencesPithosDialog.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/SearchDialog.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/StationsDialog.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__main__.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/media/album_default.png</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/media/album_default.svg</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/media/icon.svg</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/media/pithos-tray-icon.png</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/media/rate_bg.png</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/media/rate_bg.svg</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/ui/AboutPithosDialog.ui</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/ui/PithosWindow.ui</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/ui/PreferencesPithosDialog.ui</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/ui/SearchDialog.ui</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/ui/StationsDialog.ui</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/ui/about_pithos_dialog.xml</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/ui/app_menu.ui</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/ui/pithos_window.xml</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/ui/preferences_pithos_dialog.xml</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/ui/search_dialog.xml</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/ui/stations_dialog.xml</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/gobject_worker.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pandora/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pandora/blowfish.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pandora/data.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pandora/fake.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pandora/pandora.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pithos.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pithosconfig.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugin.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/_dbus_service.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/_mpris.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/lastfm.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/mediakeys.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/mpris.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/notification_icon.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/notify.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/screensaver_pause.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/util.py</Path>
+            <Path fileType="data">/usr/share/appdata/pithos.appdata.xml</Path>
+            <Path fileType="data">/usr/share/applications/pithos.desktop</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/pithos-tray-icon.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/pithos.svg</Path>
+            <Path fileType="data">/usr/share/icons/ubuntu-mono-dark/apps/16/pithos-tray-icon.svg</Path>
+            <Path fileType="data">/usr/share/icons/ubuntu-mono-light/apps/16/pithos-tray-icon.svg</Path>
         </Files>
     </Package>
     <History>
-        <Update release="9">
-            <Date>2016-02-03</Date>
+        <Update release="11">
+            <Date>2016-06-16</Date>
             <Version>1.1.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
