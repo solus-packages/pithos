@@ -3,8 +3,8 @@
         <Name>pithos</Name>
         <Homepage>http://pithos.github.io/</Homepage>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
         </Packager>
         <License>GPL-3.0</License>
         <PartOf>multimedia.audio</PartOf>
@@ -21,46 +21,86 @@
         <PartOf>multimedia.audio</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos-1.1.2-py3.5.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos-1.1.2-py3.5.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos-1.1.2-py3.5.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos-1.1.2-py3.5.egg-info/entry_points.txt</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos-1.1.2-py3.5.egg-info/top_level.txt</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/AboutPithosDialog.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/PreferencesPithosDialog.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/SearchDialog.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/StationsDialog.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/StationsPopover.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__main__.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/media/album_default.png</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/media/album_default.svg</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/media/icon.svg</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/media/pithos-tray-icon.png</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/media/rate_bg.png</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/media/rate_bg.svg</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/ui/AboutPithosDialog.ui</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/ui/PithosWindow.ui</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/ui/PreferencesPithosDialog.ui</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/ui/SearchDialog.ui</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/ui/StationsDialog.ui</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/ui/about_pithos_dialog.xml</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/ui/app_menu.ui</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/ui/pithos_window.xml</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/ui/preferences_pithos_dialog.xml</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/ui/search_dialog.xml</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/data/ui/stations_dialog.xml</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/AboutPithosDialog.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/AboutPithosDialog.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/PreferencesPithosDialog.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/PreferencesPithosDialog.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/SearchDialog.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/SearchDialog.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/StationsDialog.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/StationsDialog.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/StationsPopover.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/StationsPopover.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/__init__.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/__init__.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/__main__.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/__main__.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/application.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/application.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/gi_composites.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/gi_composites.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/gobject_worker.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/gobject_worker.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/migrate_settings.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/migrate_settings.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/pithos.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/pithos.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/plugin.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/plugin.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/util.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/__pycache__/util.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/application.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/gi_composites.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/gobject_worker.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/migrate_settings.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pandora/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pandora/__pycache__/__init__.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pandora/__pycache__/__init__.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pandora/__pycache__/blowfish.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pandora/__pycache__/blowfish.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pandora/__pycache__/data.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pandora/__pycache__/data.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pandora/__pycache__/fake.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pandora/__pycache__/fake.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pandora/__pycache__/pandora.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pandora/__pycache__/pandora.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pandora/blowfish.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pandora/data.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pandora/fake.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pandora/pandora.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pithos.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/pithosconfig.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugin.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/__pycache__/__init__.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/__pycache__/__init__.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/__pycache__/_dbus_service.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/__pycache__/_dbus_service.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/__pycache__/_mpris.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/__pycache__/_mpris.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/__pycache__/lastfm.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/__pycache__/lastfm.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/__pycache__/mediakeys.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/__pycache__/mediakeys.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/__pycache__/mpris.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/__pycache__/mpris.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/__pycache__/notification_icon.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/__pycache__/notification_icon.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/__pycache__/notify.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/__pycache__/notify.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/__pycache__/screensaver_pause.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/__pycache__/screensaver_pause.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/_dbus_service.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/_mpris.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/dbus_util/DBusServiceObject.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/dbus_util/__pycache__/DBusServiceObject.cpython-35.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/dbus_util/__pycache__/DBusServiceObject.cpython-35.pyc</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/lastfm.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/mediakeys.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/mpris.py</Path>
@@ -68,21 +108,24 @@
             <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/notify.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/plugins/screensaver_pause.py</Path>
             <Path fileType="library">/usr/lib/python3.5/site-packages/pithos/util.py</Path>
-            <Path fileType="data">/usr/share/appdata/pithos.appdata.xml</Path>
-            <Path fileType="data">/usr/share/applications/pithos.desktop</Path>
+            <Path fileType="data">/usr/share/appdata/io.github.Pithos.appdata.xml</Path>
+            <Path fileType="data">/usr/share/applications/io.github.Pithos.desktop</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/io.github.Pithos.gschema.xml</Path>
             <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/pithos-tray-icon.png</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/pithos.svg</Path>
-            <Path fileType="data">/usr/share/icons/ubuntu-mono-dark/apps/16/pithos-tray-icon.svg</Path>
-            <Path fileType="data">/usr/share/icons/ubuntu-mono-light/apps/16/pithos-tray-icon.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/io.github.Pithos.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/pithos-tray-icon.svg</Path>
+            <Path fileType="data">/usr/share/icons/ubuntu-mono-dark/16x16/apps/pithos-tray-icon.svg</Path>
+            <Path fileType="data">/usr/share/icons/ubuntu-mono-light/16x16/apps/pithos-tray-icon.svg</Path>
+            <Path fileType="data">/usr/share/pithos</Path>
         </Files>
     </Package>
     <History>
-        <Update release="11">
-            <Date>2016-06-16</Date>
-            <Version>1.1.2</Version>
+        <Update release="12">
+            <Date>2016-07-31</Date>
+            <Version>1.2.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
         </Update>
     </History>
 </PISI>
