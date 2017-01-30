@@ -1,26 +1,28 @@
 name       : pithos
-version    : 1.2.0
-homepage   : http://pithos.github.io/
-release    : 12
+version    : 1.2.1
+homepage   : https://pithos.github.io/
+release    : 13
 source     :
-    - https://github.com/pithos/pithos/archive/1.2.0.tar.gz : 2e18b1519a19aeade5137f1c793883ea2516a4bb19f31ec9e8488494c000fd63
+    - https://github.com/pithos/pithos/releases/download/1.2.1/pithos-1.2.1.tar.xz : 51dc6095162df3ee095a34d3a9ab20aeb4c99fe017a48ae648a5dd55d21c2c17
 license    : GPL-3.0
 component  : multimedia.audio
 summary    : Pandora music streaming client
 description: |
     Pandora music streaming client
 builddeps  :
-    - pkgconfig(gtk+-3.0)
-    - pkgconfig(libnotify)
     - pkgconfig(appstream-glib)
 rundeps    :
+    - python3-gobject
+    - python3-cairo
+    - python3-pylast
+    - libgtk-3
+    - libnotify
+    - libsecret
     - gstreamer-1.0-plugins-bad
     - gstreamer-1.0-plugins-good
     - gstreamer-1.0-plugins-ugly
-    - python3-dbus
-    - python3-pylast
 setup    : |
-    %autogen
+    %configure
 build    : |
     %make
 install    : |
