@@ -1,7 +1,7 @@
 name       : pithos
 version    : 1.4.0
 homepage   : https://pithos.github.io/
-release    : 15
+release    : 16
 source     :
     - https://github.com/pithos/pithos/releases/download/1.4.0/pithos-1.4.0.tar.xz : 4c025d7e1e055292849b80c37d8ad3862e0f2cbd9c7327664deb8ac0389952ac
 license    : GPL-3.0
