@@ -1,9 +1,9 @@
 name       : pithos
-version    : 1.4.0
+version    : 1.4.1
 homepage   : https://pithos.github.io/
-release    : 16
+release    : 17
 source     :
-    - https://github.com/pithos/pithos/releases/download/1.4.0/pithos-1.4.0.tar.xz : 4c025d7e1e055292849b80c37d8ad3862e0f2cbd9c7327664deb8ac0389952ac
+    - https://github.com/pithos/pithos/archive/1.4.1.tar.gz : 33682e5f7ac37ae99f91d09ceeb76fd51ca2cee0a326cbc8118079b24a51fbd5
 license    : GPL-3.0
 component  : multimedia.audio
 summary    : Pandora music streaming client
