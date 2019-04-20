@@ -11,7 +11,7 @@
         <Summary xml:lang="en">Pandora music streaming client</Summary>
         <Description xml:lang="en">Pandora music streaming client
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>pithos</Name>
@@ -20,7 +20,7 @@
 </Description>
         <PartOf>multimedia.audio</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/pithos</Path>
             <Path fileType="data">/usr/share/appdata/io.github.Pithos.appdata.xml</Path>
             <Path fileType="data">/usr/share/applications/io.github.Pithos.desktop</Path>
             <Path fileType="data">/usr/share/dbus-1/services/io.github.Pithos.service</Path>
@@ -31,13 +31,77 @@
             <Path fileType="data">/usr/share/icons/hicolor/symbolic/apps/io.github.Pithos-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/ubuntu-mono-dark/16x16/apps/io.github.Pithos-tray.svg</Path>
             <Path fileType="data">/usr/share/icons/ubuntu-mono-light/16x16/apps/io.github.Pithos-tray.svg</Path>
-            <Path fileType="man">/usr/share/man</Path>
-            <Path fileType="data">/usr/share/pithos</Path>
+            <Path fileType="man">/usr/share/man/man1/pithos.1</Path>
+            <Path fileType="data">/usr/share/pithos/pithos.gresource</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/AboutPithosDialog.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/PreferencesPithosDialog.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/SearchDialog.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/StationsDialog.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/StationsPopover.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__init__.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__main__.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/AboutPithosDialog.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/PreferencesPithosDialog.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/SearchDialog.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/StationsDialog.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/StationsPopover.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/__init__.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/__main__.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/application.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/gi_composites.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/gobject_worker.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/migrate_settings.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/pithos.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/plugin.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/util.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/application.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/gi_composites.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/gobject_worker.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/migrate_settings.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/pandora/__init__.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/pandora/__pycache__/__init__.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/pandora/__pycache__/blowfish.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/pandora/__pycache__/data.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/pandora/__pycache__/fake.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/pandora/__pycache__/pandora.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/pandora/blowfish.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/pandora/data.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/pandora/fake.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/pandora/pandora.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/pithos.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugin.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/10_band_equalizer.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/__init__.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/10_band_equalizer.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/__init__.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/auto_volume_normalization.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/inhibit_screensaver.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/journald_logging.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/lastfm.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/mediakeys.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/mpris.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/notification_icon.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/notify.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/screensaver_pause.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/auto_volume_normalization.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/dbus_util/DBusServiceObject.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/dbus_util/GioNotify.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/dbus_util/__pycache__/DBusServiceObject.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/dbus_util/__pycache__/GioNotify.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/inhibit_screensaver.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/journald_logging.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/lastfm.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/mediakeys.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/mpris.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/notification_icon.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/notify.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/screensaver_pause.py</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/util.py</Path>
         </Files>
     </Package>
     <History>
-        <Update release="18">
-            <Date>2018-04-25</Date>
+        <Update release="19">
+            <Date>2019-04-20</Date>
             <Version>1.4.1</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
