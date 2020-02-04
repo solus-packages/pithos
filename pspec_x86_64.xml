@@ -3,8 +3,8 @@
         <Name>pithos</Name>
         <Homepage>https://pithos.github.io/</Homepage>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>multimedia.audio</PartOf>
@@ -40,30 +40,30 @@
             <Path fileType="data">/usr/share/pithos/pithos/StationsPopover.py</Path>
             <Path fileType="data">/usr/share/pithos/pithos/__init__.py</Path>
             <Path fileType="data">/usr/share/pithos/pithos/__main__.py</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/AboutPithosDialog.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/PreferencesPithosDialog.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/SearchDialog.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/StationsDialog.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/StationsPopover.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/__init__.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/__main__.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/application.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/gi_composites.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/gobject_worker.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/migrate_settings.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/pithos.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/plugin.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/util.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/AboutPithosDialog.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/PreferencesPithosDialog.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/SearchDialog.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/StationsDialog.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/StationsPopover.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/__init__.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/__main__.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/application.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/gi_composites.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/gobject_worker.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/migrate_settings.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/pithos.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/plugin.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/__pycache__/util.cpython-37.opt-2.pyc</Path>
             <Path fileType="data">/usr/share/pithos/pithos/application.py</Path>
             <Path fileType="data">/usr/share/pithos/pithos/gi_composites.py</Path>
             <Path fileType="data">/usr/share/pithos/pithos/gobject_worker.py</Path>
             <Path fileType="data">/usr/share/pithos/pithos/migrate_settings.py</Path>
             <Path fileType="data">/usr/share/pithos/pithos/pandora/__init__.py</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/pandora/__pycache__/__init__.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/pandora/__pycache__/blowfish.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/pandora/__pycache__/data.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/pandora/__pycache__/fake.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/pandora/__pycache__/pandora.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/pandora/__pycache__/__init__.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/pandora/__pycache__/blowfish.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/pandora/__pycache__/data.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/pandora/__pycache__/fake.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/pandora/__pycache__/pandora.cpython-37.opt-2.pyc</Path>
             <Path fileType="data">/usr/share/pithos/pithos/pandora/blowfish.py</Path>
             <Path fileType="data">/usr/share/pithos/pithos/pandora/data.py</Path>
             <Path fileType="data">/usr/share/pithos/pithos/pandora/fake.py</Path>
@@ -72,22 +72,22 @@
             <Path fileType="data">/usr/share/pithos/pithos/plugin.py</Path>
             <Path fileType="data">/usr/share/pithos/pithos/plugins/10_band_equalizer.py</Path>
             <Path fileType="data">/usr/share/pithos/pithos/plugins/__init__.py</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/10_band_equalizer.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/__init__.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/auto_volume_normalization.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/inhibit_screensaver.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/journald_logging.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/lastfm.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/mediakeys.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/mpris.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/notification_icon.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/notify.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/screensaver_pause.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/10_band_equalizer.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/__init__.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/auto_volume_normalization.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/inhibit_screensaver.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/journald_logging.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/lastfm.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/mediakeys.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/mpris.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/notification_icon.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/notify.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/screensaver_pause.cpython-37.opt-2.pyc</Path>
             <Path fileType="data">/usr/share/pithos/pithos/plugins/auto_volume_normalization.py</Path>
             <Path fileType="data">/usr/share/pithos/pithos/plugins/dbus_util/DBusServiceObject.py</Path>
             <Path fileType="data">/usr/share/pithos/pithos/plugins/dbus_util/GioNotify.py</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/plugins/dbus_util/__pycache__/DBusServiceObject.cpython-36.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/plugins/dbus_util/__pycache__/GioNotify.cpython-36.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/dbus_util/__pycache__/DBusServiceObject.cpython-37.opt-2.pyc</Path>
+            <Path fileType="data">/usr/share/pithos/pithos/plugins/dbus_util/__pycache__/GioNotify.cpython-37.opt-2.pyc</Path>
             <Path fileType="data">/usr/share/pithos/pithos/plugins/inhibit_screensaver.py</Path>
             <Path fileType="data">/usr/share/pithos/pithos/plugins/journald_logging.py</Path>
             <Path fileType="data">/usr/share/pithos/pithos/plugins/lastfm.py</Path>
@@ -100,12 +100,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="20">
-            <Date>2019-09-21</Date>
+        <Update release="21">
+            <Date>2020-01-27</Date>
             <Version>1.4.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
