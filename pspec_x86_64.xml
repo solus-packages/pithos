@@ -3,8 +3,8 @@
         <Name>pithos</Name>
         <Homepage>https://pithos.github.io/</Homepage>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>multimedia.audio</PartOf>
@@ -21,7 +21,6 @@
         <PartOf>multimedia.audio</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin/pithos</Path>
-            <Path fileType="data">/usr/share/appdata/io.github.Pithos.appdata.xml</Path>
             <Path fileType="data">/usr/share/applications/io.github.Pithos.desktop</Path>
             <Path fileType="data">/usr/share/dbus-1/services/io.github.Pithos.service</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/io.github.Pithos.gschema.xml</Path>
@@ -32,6 +31,7 @@
             <Path fileType="data">/usr/share/icons/ubuntu-mono-dark/16x16/apps/io.github.Pithos-tray.svg</Path>
             <Path fileType="data">/usr/share/icons/ubuntu-mono-light/16x16/apps/io.github.Pithos-tray.svg</Path>
             <Path fileType="man">/usr/share/man/man1/pithos.1</Path>
+            <Path fileType="data">/usr/share/metainfo/io.github.Pithos.appdata.xml</Path>
             <Path fileType="data">/usr/share/pithos/pithos.gresource</Path>
             <Path fileType="data">/usr/share/pithos/pithos/AboutPithosDialog.py</Path>
             <Path fileType="data">/usr/share/pithos/pithos/PreferencesPithosDialog.py</Path>
@@ -85,9 +85,7 @@
             <Path fileType="data">/usr/share/pithos/pithos/plugins/__pycache__/screensaver_pause.cpython-37.opt-2.pyc</Path>
             <Path fileType="data">/usr/share/pithos/pithos/plugins/auto_volume_normalization.py</Path>
             <Path fileType="data">/usr/share/pithos/pithos/plugins/dbus_util/DBusServiceObject.py</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/plugins/dbus_util/GioNotify.py</Path>
             <Path fileType="data">/usr/share/pithos/pithos/plugins/dbus_util/__pycache__/DBusServiceObject.cpython-37.opt-2.pyc</Path>
-            <Path fileType="data">/usr/share/pithos/pithos/plugins/dbus_util/__pycache__/GioNotify.cpython-37.opt-2.pyc</Path>
             <Path fileType="data">/usr/share/pithos/pithos/plugins/inhibit_screensaver.py</Path>
             <Path fileType="data">/usr/share/pithos/pithos/plugins/journald_logging.py</Path>
             <Path fileType="data">/usr/share/pithos/pithos/plugins/lastfm.py</Path>
@@ -100,12 +98,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="21">
-            <Date>2020-01-27</Date>
-            <Version>1.4.1</Version>
+        <Update release="22">
+            <Date>2020-03-12</Date>
+            <Version>1.5.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Update>
     </History>
 </PISI>
