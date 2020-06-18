@@ -1,7 +1,7 @@
 name       : pithos
 version    : 1.5.0
 homepage   : https://pithos.github.io/
-release    : 22
+release    : 23
 source     :
     - https://github.com/pithos/pithos/releases/download/1.5.0/pithos-1.5.0.tar.xz : 61e2a778252358519979ea53ab9fb9dd10a9554d24f3e249560bc4971f386133
 license    : GPL-3.0-or-later
@@ -12,15 +12,15 @@ description: |
 builddeps  :
     - pkgconfig(appstream-glib)
 rundeps    :
-    - python3-gobject
-    - python3-cairo
-    - python3-pylast
     - libgtk-3
     - libnotify
     - libsecret
     - gstreamer-1.0-plugins-bad
     - gstreamer-1.0-plugins-good
     - gstreamer-1.0-plugins-ugly
+    - python-gobject
+    - python3-cairo
+    - python3-pylast
 setup      : |
     %meson_configure
 build      : |
